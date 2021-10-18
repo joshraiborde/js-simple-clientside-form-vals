@@ -5,55 +5,54 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
-    <script src="https://kit.fontawesome.com/d92af6efaf.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/d92af6efaf.js" crossorigin="anonymous"></script> -->
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css"/>
     
     <title>Login Form</title>
   </head>
   <body>
 
-<div class="container">
-    <div class="header">
-      <h2>Create Account</h2>
-    </div>
-
-    <form class="form" id="form">
-        <div class="form-control">
-          <label>USERNAME:</label>
-          <input type="text" placeholder="username" id="username" >
-          <i class="fas fa-check-circle"></i>
-          <i class="fas fa-exclamation-circle"></i>
-          <small>ERROR MESSAGE</small>
+    <div class="container">
+        <div class="header">
+          <h2>Create Account</h2>
         </div>
-
-        <div class="form-control">
-            <label>EMAIL:</label>
-            <input type="text" placeholder="email@email.com" id="email" >
+        <form class="form" id="form">
+          <div class="form-control">
+            <label>USERNAME:</label>
+            <input type="text" placeholder="username" id="username">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>ERROR MESSAGE</small>
           </div>
-
+      
+          <div class="form-control">
+            <label>EMAIL:</label>
+            <input type="text" placeholder="email@email.com" id="email">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            <small>ERROR MESSAGE</small>
+          </div>
+      
           <div class="form-control">
             <label>PASSWORD:</label>
-            <input type="password" placeholder="password" id="password" >
+            <input type="password" placeholder="password" id="password">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>ERROR MESSAGE</small>
           </div>
-
+      
           <div class="form-control">
             <label>CONFIRM PASSWORD:</label>
-            <input type="password" placeholder="confirm password" id="confirmPassword" >
+            <input type="password" placeholder="confirm password" id="confirmPassword">
             <i class="fas fa-check-circle"></i>
             <i class="fas fa-exclamation-circle"></i>
             <small>ERROR MESSAGE</small>
           </div>
-
           <button>SUBMIT</button>
-
-    </form>
-    </div>
+        </form>
+      </div>
 
     <script>src="./app.js"</script>
   </body>
