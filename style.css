@@ -82,3 +82,26 @@
     visibility: visible;
     color: #e74c3c;
   }
+
+  .form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+  
+  .form button {
+    background-color: #8e44ae;
+    border: 2px solid purple;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+  }
